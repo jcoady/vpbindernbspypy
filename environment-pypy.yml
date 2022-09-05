@@ -5,15 +5,13 @@ channels:
   - nodefaults
 
 dependencies:
-  - ipywidgets
   - jupyterlab==3.3.3
-  - matplotlib
-  - nodejs
-  - notebook
   - numpy
+  - matplotlib
   - pandas
+  - ipywidgets
+  - jupyterlab-vpython
   - pypy
   - pip
-  - jupyterlab-vpython
   - pip:
     - vpython
