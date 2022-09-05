@@ -5,3 +5,4 @@ time conda env update --prefix ${CONDA_DIR} --file environment-mamba.yml
 rm -rf ${NB_PYTHON_PREFIX}
 time mamba env update -p ${NB_PYTHON_PREFIX} --file environment-pypy.yml
 time conda clean -yaf
+jupyter labextension enable jupyterlab_vpython
